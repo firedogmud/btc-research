@@ -15,17 +15,36 @@ NOTION_HEADERS = {
 }
 
 FEEDS = [
+    # ===== Macro (核心宏觀 + Bitcoin) =====
     {"name": "Crypto is Macro Now", "url": "https://www.cryptoismacro.com/feed", "category": "Macro"},
     {"name": "Lyn Alden", "url": "https://www.lynalden.com/feed/", "category": "Macro"},
     {"name": "Bitwise CIO Memo", "url": "https://bitwiseinvestments.substack.com/feed", "category": "Macro"},
     {"name": "Benjamin Cowen", "url": "https://intothecryptoverse.substack.com/feed", "category": "Macro"},
     {"name": "Onramp Bitcoin", "url": "https://onrampbitcoin.com/feed", "category": "Macro"},
+
+    # ===== Macro / 敘事型 Newsletter =====
+    {"name": "Pantera Letter", "url": "https://panteracapital.com/feed/", "category": "Macro"},
+    {"name": "Milk Road", "url": "https://milkroad.com/feed", "category": "Macro"},
+    {"name": "CoinSnacks", "url": "https://coinsnacks.com/feed", "category": "Macro"},
+
+    # ===== Mining / Hashrate /礦工 =====
     {"name": "TheMinerMag", "url": "https://theminermag.com/feed/", "category": "Mining"},
     {"name": "Hashrate Index", "url": "https://hashrateindex.com/blog/feed/", "category": "Mining"},
+
+    # ===== Institutional Flow / ETF =====
     {"name": "CoinShares Blog", "url": "https://blog.coinshares.com/feed", "category": "Flow"},
+
+    # ===== Crypto 研究 / ETF 報告 =====
     {"name": "21Shares Research", "url": "https://www.21shares.com/feed", "category": "Macro"},
     {"name": "Galaxy Research", "url": "https://www.galaxy.com/research/feed/", "category": "Research"},
+    {"name": "Messari Research", "url": "https://messari.io/feed", "category": "Research"},
+
+    # ===== 技術分析 / 圖表導向 =====
+    # 註：以下來源實際 RSS 可能需要微調，如果 1–2 次跑下來都是 0 entries，再換 URL
+    {"name": "Darkex Weekly TA", "url": "https://academy.darkex.com/feed", "category": "TA"},
+    {"name": "CoinDesk Charts", "url": "https://data.coindesk.com/chart-of-the-week/feed", "category": "TA"},
 ]
+
 
 BTC_KEYWORDS = [
     "bitcoin", "btc", "hashrate", "hashprice", "mining", "miner",
