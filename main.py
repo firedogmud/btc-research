@@ -47,14 +47,32 @@ FEEDS = [
 
 
 BTC_KEYWORDS = [
-    "bitcoin", "btc", "hashrate", "hashprice", "mining", "miner",
-    "halving", "macro", "liquidity", "m2", "fed", "interest rate",
-    "treasury", "dollar", "dxy", "etf", "fund flow", "inflow",
-    "outflow", "cycle", "bull", "bear", "on-chain", "difficulty",
-    "block reward", "hash ribbon", "capitulation", "institutional",
-    "reserve", "supply", "demand", "correlation", "risk",
-    "crypto", "digital asset", "blockchain", "defi", "stablecoin",
+    # 直接提到 BTC / 挖礦
+    "bitcoin", "btc", "satoshi",
+    "hashrate", "hash price", "hashprice", "mining", "miner",
+    "halving", "block reward", "difficulty", "hash ribbon", "capitulation",
+
+    # 宏觀關鍵字（搭配 crypto 文）
+    "macro", "liquidity", "m2", "m3", "money supply",
+    "fed", "federal reserve", "interest rate", "yield curve",
+    "treasury", "bond", "real yield",
+    "dollar", "usd", "dxy", "inflation", "cpi", "ppi",
+
+    # 資金流 / 機構
+    "etf", "spot etf", "fund flow", "inflow", "outflow",
+    "institutional", "hedge fund", "asset manager",
+
+    # 整體 crypto 市場
+    "crypto", "cryptocurrency", "digital asset", "blockchain",
+    "defi", "stablecoin", "altcoin", "on-chain",
+
+    # 週期 / 風險情緒詞
+    "cycle", "bull", "bear", "risk-on", "risk-off", "liquidity cycle",
+
+    # 中文關鍵字
+    "比特幣", "礦工", "挖礦", "減半", "現貨 etf", "宏觀", "流動性", "聯準會",
 ]
+
 
 CHART_SOURCES = {"TheMinerMag", "Hashrate Index", "CoinShares Blog",
                  "21Shares Research", "Galaxy Research"}
